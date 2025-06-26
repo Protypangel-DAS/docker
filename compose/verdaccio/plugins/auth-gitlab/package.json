@@ -1,0 +1,12 @@
+{
+  "name": "verdaccio-gitlab-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.8.4"
+  },
+  "verdaccio": {
+    "auth": true,
+    "version": "6.1.2"
+  }
+}
