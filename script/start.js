@@ -44,8 +44,8 @@ async function createApplicationIdAndSecretForVerdaccio() {
 }
 
 const name = "storybook";
-// const idGroup = await createGroup(name);
-// const idProject = await createProject(idGroup, name);
+const idGroup = await createGroup(name);
+const idProject = await createProject(idGroup, name);
 const applicationIdAndSecret = await createApplicationIdAndSecretForVerdaccio();
 
 console.log(applicationIdAndSecret.application_id);
